@@ -3,12 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-export async function getStaticProps() {
-  const res = await fetch("https://dummyjson.com/products?limit=12");
-  const data = await res.json();
-  console.log(data);
-}
-
 export default function Home() {
   return (
     <>

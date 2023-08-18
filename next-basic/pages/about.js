@@ -7,6 +7,7 @@ export default function About() {
     <>
       <Head>
         <title>เกี่ยวกับเรา | BobbyPunnawich</title>
+        <meta name="keywords" content="kongruksiam,ร้านค้า,ขายเสื้อผ้า"></meta>
       </Head>
       <div className={styles.container}>
         <h1 className={styles.title}>เกี่ยวกับเรา</h1>
